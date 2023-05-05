@@ -1,0 +1,4 @@
+simpleFunc: function void () {
+            a: integer = b + fact(50) * 1204;
+            b : boolean = c || (50 == 3) && 23;
+        }

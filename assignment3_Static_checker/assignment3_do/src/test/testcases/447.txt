@@ -1,0 +1,15 @@
+
+        main: function void(){
+            a: integer = 10;
+            i: integer;
+            if(i == 5){
+                while(a){
+                    a = a - 1;
+                    if(a == 3) break;
+                }
+            }
+            else{
+                continue;
+            }
+        }
+        

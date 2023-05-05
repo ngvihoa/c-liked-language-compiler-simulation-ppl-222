@@ -1,0 +1,14 @@
+
+        jj: function string(a: auto, b: float) inherit foo{
+            super("sss", b);
+            c: auto = {{1,2},{5,2},{6,6}};
+            c[1,5] = 12 + a;
+            d = "jjjjj";
+            return "bingo";
+        }
+        main: function void(){
+            jj(1, 4.66);
+            a: boolean = foo("jksbjvd", 3.3333);
+        }
+        foo: function boolean(c: string, inherit d: auto){}
+        

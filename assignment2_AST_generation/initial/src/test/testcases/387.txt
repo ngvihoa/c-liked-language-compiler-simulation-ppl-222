@@ -1,0 +1,12 @@
+simpleFunc: function void () {
+            n: integer;
+            k: integer = 1;
+            getInput(n);
+            for(i = 1, i <= n, i+1) {
+                for(j=1, j <= i, j+1){
+                    print(k + " ");
+                    k = k + 1;
+                }   
+                print("\n");
+            }
+        }

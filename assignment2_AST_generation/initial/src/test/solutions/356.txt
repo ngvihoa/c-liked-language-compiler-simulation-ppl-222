@@ -1,0 +1,3 @@
+Program([
+	VarDecl(ar, ArrayType([3], BooleanType), ArrayLit([BooleanLit(True), ArrayCell(a, [IntegerLit(10)]), BinExpr(==, BooleanLit(False), BooleanLit(True))]))
+])

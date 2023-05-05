@@ -1,0 +1,6 @@
+
+        high: function void(a: string){
+            print(a);
+        }
+        inner: function auto(bb: boolean){ return bb==true;}
+        simpleFunc: function void () {}

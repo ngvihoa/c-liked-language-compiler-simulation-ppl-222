@@ -1,0 +1,4 @@
+
+        c: auto = 122e-2 + 23;
+        d: integer = c;
+        

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([IfStmt(IntegerLit(1), BlockStmt([IfStmt(IntegerLit(2), BlockStmt([IfStmt(IntegerLit(3), BlockStmt([]))]))]), BlockStmt([]))]))
+])

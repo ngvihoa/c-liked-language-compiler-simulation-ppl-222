@@ -1,0 +1,7 @@
+
+        Double: function integer(out n: integer){
+            n = n * 2;
+        }
+        simpleFunc: function void () {
+            print(Double(5));
+        }

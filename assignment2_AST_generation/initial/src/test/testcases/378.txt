@@ -1,0 +1,10 @@
+
+        USCLN: function integer(a: integer, b: integer) {
+            if (b == 0) return a;
+            return USCLN(b, a % b);
+        }
+        simpleFunc: function void () {
+            a,b: integer;
+            getInput(a, b);
+            print("USCLN cua %d va %d la: %d, ", a, b, USCLN(a, b));
+        }

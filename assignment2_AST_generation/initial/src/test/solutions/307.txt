@@ -1,0 +1,4 @@
+Program([
+	VarDecl(pi, FloatType, FloatLit(3.14))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(tmp, FloatType, BinExpr(*, BinExpr(*, Id(pi), IntegerLit(2)), IntegerLit(5))), CallStmt(printInteger, Id(tmp)), ReturnStmt()]))
+])

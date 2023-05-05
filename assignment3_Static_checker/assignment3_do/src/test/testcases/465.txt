@@ -1,0 +1,13 @@
+x: integer;
+        main: function void(){
+            x: float;
+            {
+                x: string;
+                {
+                    x: boolean;
+                    {
+                        a: boolean = x;
+                    }
+                }
+            }
+        }

@@ -1,0 +1,9 @@
+
+        main: function void(){
+            a: integer = 10;
+            i: integer;
+            if(i == 5){
+                break;
+            }
+        }
+        

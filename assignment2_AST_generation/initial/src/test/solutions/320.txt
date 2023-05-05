@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([AssignStmt(ArrayCell(n, [IntegerLit(12)]), StringLit(2345 I love cake))]))
+])

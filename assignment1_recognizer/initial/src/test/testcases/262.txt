@@ -1,0 +1,9 @@
+main: function void(){
+        n: integer = 12;
+        while(!n){
+            printLn(n);
+            n = n-1;
+            if(n == 3) break;
+            else b = a || false || true;
+        }
+        }

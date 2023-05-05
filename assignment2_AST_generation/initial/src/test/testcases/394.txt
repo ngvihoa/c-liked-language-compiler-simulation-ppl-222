@@ -1,0 +1,11 @@
+simpleFunc: function void () {
+            fahrenheit, celsius: float = 0.0, 0.0;
+
+            print("Please input the Celsius degree(s): ");
+            getInput(celcius);
+            print("=> The Fahrenheit is: " + (celsius * 1.8 + 32.0) + " degree(s)\n");
+
+            print("Please input the Fahrenheit degree(s): ");
+            getInput(fahrenheit);
+            print("=> The Celsius is: " + ((fahrenheit - 32.0) / 1.8) + " degree(s)\n");
+        }

@@ -1,0 +1,5 @@
+
+        a: array [2,3] of string = {{"a", "b", "c"}, {"d", "e", "f"}};
+        simpleFunc: function void () {
+            print(a);
+        }

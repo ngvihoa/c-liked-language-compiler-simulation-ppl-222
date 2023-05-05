@@ -1,0 +1,3 @@
+simpleFunc: function void () {
+            m = a[1];
+        }

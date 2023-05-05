@@ -1,0 +1,11 @@
+
+        print: function void (a:string) {
+            return a::"String";
+        }
+        cal: function boolean (isT: boolean) {
+            return !isT;
+        }
+        simpleFunc: function void () {
+            print("Automata");
+            cal(true);
+        }

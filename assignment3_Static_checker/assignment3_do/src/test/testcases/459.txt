@@ -1,0 +1,3 @@
+x: auto = {{foo(),2},{"String","String"}};
+        main: function void(){}
+        foo: function auto(){}

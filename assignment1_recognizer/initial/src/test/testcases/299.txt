@@ -1,0 +1,5 @@
+main: function void() {
+        while(i <= 3 && true) 
+            foo("calling the number", i);
+            i = i - 1;
+        }

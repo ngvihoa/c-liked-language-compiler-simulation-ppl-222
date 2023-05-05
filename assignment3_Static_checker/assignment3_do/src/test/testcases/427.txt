@@ -1,0 +1,11 @@
+
+        k: function auto(a: integer, b: string) inherit m {
+            preventDefault();
+            return a + b;
+        }
+
+        main:function void(){
+            k(1, "s");
+            return;
+        }
+        m: function boolean(inherit a: string, inherit b: integer){}

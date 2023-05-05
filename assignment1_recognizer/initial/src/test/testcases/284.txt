@@ -1,0 +1,3 @@
+randomFunction: function void(){
+            tmp[(foo(23) - innerNum + 34) == "hfjgj \b"] = stringInt + "concate \f" + _34;
+        }

@@ -1,0 +1,8 @@
+
+        pi: float = 3.14159265359;
+        simpleFunc: function void () {
+            r: integer;
+            getInput(r);
+            S: float = pow(r, 2) * pi;
+            print("Dien tich hinh tron la:\t");
+        }

@@ -1,0 +1,4 @@
+Program([
+	VarDecl(t, FloatType, FloatLit(inf))
+	VarDecl(x, FloatType, FloatLit(0.022))
+])

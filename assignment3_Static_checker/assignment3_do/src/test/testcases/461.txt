@@ -1,0 +1,1 @@
+x, f, jj: integer = 1, 2, 3;

@@ -1,0 +1,18 @@
+simpleFunc: function void () {
+            n,i: integer;
+            getInput(n);
+            while(n==-1){
+                print("Nhap lai n: ");
+                getInput(n);
+            }
+            if(n > -100){
+                for(i = n, i>= -100, i-1){
+                    print(i + "\n");
+                }
+            }
+            else{
+                for(i = n, i <= -100, i+1){
+                    print(i + "\n");
+                }
+            }
+        }

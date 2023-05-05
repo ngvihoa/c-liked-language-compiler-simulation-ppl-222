@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(f1, AutoType, [InheritOutParam(n, IntegerType)], None, BlockStmt([ReturnStmt(IntegerLit(3))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([]))
+])

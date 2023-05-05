@@ -1,0 +1,11 @@
+x: integer;
+        main: function void(){
+            while(x < 10){
+                i: integer;
+                for(i = 0, i <= x, fin(i)){
+                    x = 23 + i;
+                }
+            }
+        }
+        fin:function boolean(a: integer){}
+        

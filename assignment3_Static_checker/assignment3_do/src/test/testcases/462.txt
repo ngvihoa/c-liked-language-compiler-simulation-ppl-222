@@ -1,0 +1,3 @@
+
+        x: float;
+        a: auto = x < 10

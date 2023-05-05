@@ -1,0 +1,8 @@
+main: function void() {
+                        a: auto = {1 + 33, 2};
+                        a[f4(5,5,5)] = 2;
+                        x: string = "ssssss";
+                }
+                f4: function float(x: float, y: float, z: float) {
+                        return x + y + z;
+                }

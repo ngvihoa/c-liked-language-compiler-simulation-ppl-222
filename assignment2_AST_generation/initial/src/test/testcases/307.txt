@@ -1,0 +1,6 @@
+pi: float = 3.14;
+        simpleFunc: function void () {
+            tmp: float = pi * 2 * 5;
+            printInteger(tmp);
+            return;
+        }

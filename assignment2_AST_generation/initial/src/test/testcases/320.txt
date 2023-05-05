@@ -1,0 +1,3 @@
+simpleFunc: function void () {
+            n[12] = "2345 I love cake";
+        }

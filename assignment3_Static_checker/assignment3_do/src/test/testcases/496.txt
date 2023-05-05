@@ -1,0 +1,6 @@
+gin: function auto(inherit k: integer, inherit c: string){}
+        hin: function auto(inherit b: float) inherit lin{
+            super(true, 3);
+        }
+        lin:function integer(k: boolean, d: integer){
+        }

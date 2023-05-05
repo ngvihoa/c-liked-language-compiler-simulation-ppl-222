@@ -1,0 +1,18 @@
+simpleFunc: function void () {
+        x,y: integer;
+		print("Nhap x,y: ");
+		getInput(x, y);
+        while (x>y)
+        {
+            print("Nhap lai x,y: ");
+            getInput(x, y);
+        }
+        
+        i: integer;
+        sum: integer = 0;
+        for (i=x, i<=y, i+1) 
+        {
+            sum=sum+i*i;
+        }
+        print("Tong binh phuong cac so tu " + x + " den " + y + " la: " + sum);
+        }

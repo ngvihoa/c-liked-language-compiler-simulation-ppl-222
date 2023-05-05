@@ -1,0 +1,7 @@
+
+        average: function auto(a: auto, b: auto){
+            return (a+b)/2;
+        }
+        simpleFunc: function void () {
+            average(3, 4);
+        }

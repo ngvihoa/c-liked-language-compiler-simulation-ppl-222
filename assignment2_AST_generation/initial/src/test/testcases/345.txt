@@ -1,0 +1,6 @@
+
+        string1: string = "random string \f random string";
+        string2: string = "I'm \"Batman\"";
+        simpleFunc: function void () {
+            print(string1::string2);
+        }

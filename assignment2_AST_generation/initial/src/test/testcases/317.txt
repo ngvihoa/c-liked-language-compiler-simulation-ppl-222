@@ -1,0 +1,7 @@
+
+        f1: function auto(inherit out n: integer){
+            return 3;
+        }
+        simpleFunc: function void () {
+            
+        }

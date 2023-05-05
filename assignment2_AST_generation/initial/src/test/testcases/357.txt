@@ -1,0 +1,5 @@
+
+        testType: function auto(inherit out m: integer, out k: boolean, null: string) {
+            return;
+        }
+        

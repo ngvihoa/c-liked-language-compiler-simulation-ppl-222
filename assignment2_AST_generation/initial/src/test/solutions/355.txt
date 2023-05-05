@@ -1,0 +1,6 @@
+Program([
+	VarDecl(esc, StringType, StringLit(\r ayyyo))
+	VarDecl(esc2, StringType, StringLit(come on \f \n))
+	VarDecl(esc3__, StringType, StringLit(2/3\\ ))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([]))
+])

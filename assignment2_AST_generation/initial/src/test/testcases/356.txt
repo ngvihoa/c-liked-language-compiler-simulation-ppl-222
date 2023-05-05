@@ -1,0 +1,3 @@
+
+        ar: array [3] of boolean = {true, a[10], false == true};
+        

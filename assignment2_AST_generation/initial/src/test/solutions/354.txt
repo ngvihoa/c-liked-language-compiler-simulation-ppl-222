@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(toArray, StringLit(Hello! can u speak \'vietnamese\'))]))
+])

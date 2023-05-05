@@ -1,0 +1,9 @@
+main: function void(){
+            a,b: float;
+            a = 3.5;
+            b = 7.6;
+            printLn(a, b, "+");
+            printLn(a, b, "-");
+            printLn(a, b, "/");
+            printLn(a, b, "<");
+        }

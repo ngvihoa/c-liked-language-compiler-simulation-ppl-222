@@ -1,0 +1,1 @@
+s: array [2,2] of boolean = {{true,false},{2.0,false}};

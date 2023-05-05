@@ -1,0 +1,11 @@
+
+        pow: function float(x: float, y: integer){
+            res: float = 1;
+            for (i = 1, i <= y, i+1) {
+                res = res * x;
+            } 
+            return res;
+        }
+        simpleFunc: function void () {
+            print(pow(2.0036E-7, 2));
+        }

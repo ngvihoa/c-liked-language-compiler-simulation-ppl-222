@@ -1,0 +1,10 @@
+
+        jj: function string(a: integer, b: float){
+            c: array [3,2] of float = {{1,2},{5,2},{6,6}};
+            c[1,2] = 12 + 4;
+            return "bingo";
+        }
+        main: function void(){
+
+        }
+        

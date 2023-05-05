@@ -1,0 +1,4 @@
+
+        f: function float(){}
+        g: function integer() inherit f{}
+        main: function void(){}

@@ -1,0 +1,8 @@
+main: function void(){
+        n: integer == 12;
+        for(i = 3, a[n], n - 1){
+            generateNumber(mm);
+            setString("incarese");
+            a[n] = 1 + a[n-1];
+        }   
+        }

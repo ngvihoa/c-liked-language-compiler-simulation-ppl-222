@@ -1,0 +1,4 @@
+simpleFunc: function void () {
+            m = a + x % 2 / 23 - .9e-23;
+            print(m);
+        }

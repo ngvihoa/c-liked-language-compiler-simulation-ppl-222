@@ -1,0 +1,8 @@
+simpleFunc: function void () {
+            i:integer = 5;
+            do{
+                i = i / 2;
+                if(i == 2) break;
+            }while(1);
+            print(i);
+        }

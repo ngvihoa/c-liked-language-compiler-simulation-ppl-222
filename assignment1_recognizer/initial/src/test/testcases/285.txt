@@ -1,0 +1,3 @@
+randomFunction: function void(){
+            tmp[5] = a + 2 * b && b % 5.0 + "daaaaaaaaa";
+        }

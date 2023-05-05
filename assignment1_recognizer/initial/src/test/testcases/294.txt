@@ -1,0 +1,4 @@
+main: function void(){
+            // Comment
+            num: array [4,7,5] of integer = {2.5,"hdjsh",timr + 2};
+        }

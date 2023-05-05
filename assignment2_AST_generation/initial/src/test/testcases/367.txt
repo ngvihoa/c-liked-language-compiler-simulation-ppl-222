@@ -1,0 +1,5 @@
+simpleFunc: function void () {
+            a1, a2: string = "Love u to the moon and back, I cant let u know this fact", "moon";
+            a1 = toArrayString(a1);
+            print(isSubString(a1, a2));
+        }

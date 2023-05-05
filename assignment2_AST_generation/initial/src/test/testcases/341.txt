@@ -1,0 +1,9 @@
+simpleFunc: function void () {
+            a:array [10] of integer;
+            m: integer = 0;
+            for(i = 1, i < n * 2, i * 3){
+                a[m] = i;
+                m = m + 1;
+            }
+            return;
+        }

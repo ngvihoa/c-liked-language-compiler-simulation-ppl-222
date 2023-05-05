@@ -1,0 +1,8 @@
+simpleFunc: function void () {
+            m: string = "Nguyen viet hoa";
+            n: string = "";
+            for(i=0,i<len(m),i+1){
+                n = m[i]::n;
+            }
+            print(n);
+        }

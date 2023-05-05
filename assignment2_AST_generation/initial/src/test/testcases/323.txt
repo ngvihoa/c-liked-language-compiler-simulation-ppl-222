@@ -1,0 +1,5 @@
+simpleFunc: function void () {
+            do{
+                printout("Do something fun");
+            }while(a==1);
+        }

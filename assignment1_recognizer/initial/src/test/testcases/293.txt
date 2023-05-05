@@ -1,0 +1,4 @@
+main: function void(){
+            // Comment
+            num :: integer = 23;
+        }

@@ -1,0 +1,7 @@
+
+        main: function void(){
+            c: array [2,3] of boolean;
+            if(c[2,"string"]){
+                printBoolean(c[1,2]);
+            }
+        }

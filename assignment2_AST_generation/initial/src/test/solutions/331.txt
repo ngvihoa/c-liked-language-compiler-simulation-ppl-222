@@ -1,0 +1,5 @@
+Program([
+	VarDecl(f, StringType, StringLit(Baby Shark))
+	VarDecl(h, StringType, StringLit(LOving you \n))
+	VarDecl(s, StringType, StringLit(nonstop \t music))
+])

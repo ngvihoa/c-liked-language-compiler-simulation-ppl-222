@@ -1,0 +1,1 @@
+isEven: function boolean(a: boolean) {}

@@ -1,0 +1,16 @@
+
+        CanChi: function string (n:integer) {
+            r: integer = n%12;
+            if(r==0) return "Than";
+            if(r==1) return "Dau";
+            if(r==2) return "Tuat";
+            if(r==3) return "Hoi";
+            if(r==4) return "Ti";
+            if(r==5) return "Suu";
+            if(r==6) return "Dan";
+            if(r==7) return "Mao";
+            if(r==8) return "Thin";
+            if(r==9) return "Ty";
+            if(r==10) return "Ngo";
+            else return "Mui";
+        }

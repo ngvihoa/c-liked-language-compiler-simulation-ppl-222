@@ -1,0 +1,1 @@
+Type mismatch in statement: WhileStmt(Id(a), BlockStmt([AssignStmt(Id(a), BinExpr(-, Id(a), IntegerLit(1))), IfStmt(BinExpr(==, Id(a), IntegerLit(3)), BreakStmt())]))

@@ -1,0 +1,4 @@
+
+        b, c, d, e: boolean = true, false, false, true;
+        simpleFunc: function void () {
+        }

@@ -1,0 +1,4 @@
+fun: function auto(a: integer){
+            return a;
+        }
+        x: integer = fun(2, 4);

@@ -1,0 +1,8 @@
+simpleFunc: function void () {
+            sum: integer = 0;
+            for(i = 1,check(i),i+1){
+                if(i != 5) sum = sum + i;
+                continue;
+            }
+            print(sum);
+        }

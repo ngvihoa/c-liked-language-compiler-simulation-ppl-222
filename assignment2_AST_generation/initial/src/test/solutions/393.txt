@@ -1,0 +1,4 @@
+Program([
+	VarDecl(pi, FloatType, FloatLit(3.14159265359))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(r, IntegerType), CallStmt(getInput, Id(r)), VarDecl(S, FloatType, BinExpr(*, FuncCall(pow, [Id(r), IntegerLit(2)]), Id(pi))), CallStmt(print, StringLit(Dien tich hinh tron la:\t))]))
+])

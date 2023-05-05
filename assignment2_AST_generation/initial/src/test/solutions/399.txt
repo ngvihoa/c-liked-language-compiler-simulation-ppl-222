@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(n, IntegerType), VarDecl(i, IntegerType), CallStmt(getInput, Id(n)), WhileStmt(BinExpr(==, Id(n), UnExpr(-, IntegerLit(1))), BlockStmt([CallStmt(print, StringLit(Nhap lai n: )), CallStmt(getInput, Id(n))])), IfStmt(BinExpr(>, Id(n), UnExpr(-, IntegerLit(100))), BlockStmt([ForStmt(AssignStmt(Id(i), Id(n)), BinExpr(>=, Id(i), UnExpr(-, IntegerLit(100))), BinExpr(-, Id(i), IntegerLit(1)), BlockStmt([CallStmt(print, BinExpr(+, Id(i), StringLit(\n)))]))]), BlockStmt([ForStmt(AssignStmt(Id(i), Id(n)), BinExpr(<=, Id(i), UnExpr(-, IntegerLit(100))), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([CallStmt(print, BinExpr(+, Id(i), StringLit(\n)))]))]))]))
+])

@@ -1,0 +1,12 @@
+simpleFunc: function void () {
+            da: array [3] of string = {"I'm happy u never saw me in college",
+                                        "Blood on my hands I refuse to ignore it",
+                                        "I got my light headed..."};
+            tmp: string = "";
+            n: integer = 0;
+            while(n<3){
+                tmp = tmp::da[n];
+                n = n + 1;
+            }
+            print(tmp);
+        }

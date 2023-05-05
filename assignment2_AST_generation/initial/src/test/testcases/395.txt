@@ -1,0 +1,10 @@
+simpleFunc: function void () {
+            i, n: integer;
+            print("Nhap so n: ");
+            getInput(n);
+            print("In bang nhan tu 1 den 20 voi " + n + " :\n");
+                
+            for(i = 1, i <= 20, i+1) {
+                print(n + "\t x\t" + i + "\t =\t" + (n*i) + "\n");
+            }
+        }

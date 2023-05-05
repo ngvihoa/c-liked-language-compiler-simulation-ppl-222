@@ -1,0 +1,2 @@
+b: auto = (2 >= 3) && (4 != 7);
+        main: function void(){}

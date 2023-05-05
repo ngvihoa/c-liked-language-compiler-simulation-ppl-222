@@ -1,0 +1,11 @@
+
+        gin: function auto(inherit k: integer, inherit c: string) {}
+
+        hin: function auto(inherit b: float) inherit gin {
+            super(1, "fksnl");
+        }
+
+        lin:function integer(k: boolean) {
+            super(2.5);
+        }
+        

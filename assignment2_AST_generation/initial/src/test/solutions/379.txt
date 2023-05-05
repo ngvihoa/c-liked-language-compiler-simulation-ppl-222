@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(USCLN, IntegerType, [Param(a, IntegerType), Param(b, IntegerType)], None, BlockStmt([IfStmt(BinExpr(==, Id(b), IntegerLit(0)), ReturnStmt(Id(a))), ReturnStmt(FuncCall(USCLN, [Id(b), BinExpr(%, Id(a), Id(b))]))]))
+	FuncDecl(BSCNN, IntegerType, [Param(a, IntegerType), Param(b, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(/, BinExpr(*, Id(a), Id(b)), FuncCall(USCLN, [Id(a), Id(b)])))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(a, IntegerType), VarDecl(b, IntegerType), CallStmt(getInput, Id(a), Id(b)), CallStmt(print, StringLit(BSCNN cua %d va %d la: %d), Id(a), Id(b), FuncCall(BSCNN, [Id(a), Id(b)]))]))
+])

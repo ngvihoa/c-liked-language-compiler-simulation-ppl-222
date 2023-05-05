@@ -1,0 +1,3 @@
+simpleFunc: function void () {
+            toArray("Hello! can u speak \'vietnamese\'");
+        }

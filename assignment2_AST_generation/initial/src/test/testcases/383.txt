@@ -1,0 +1,44 @@
+
+        fibonacci: function integer(n: integer) {
+            f0,f1,fn: integer = 0,1,1;
+            i:integer;
+            if (n < 0) {
+                return -1;
+            } 
+            if ((n == 0) || (n == 1)) {
+                return n;
+            } else {
+                for (i = 2, i < n, i+1) {
+                    f0 = f1;
+                    f1 = fn;
+                    fn = f0 + f1;
+                }
+            }
+            return fn;
+        }
+
+        isPrimeNumber: function integer(n: integer) {
+            if (n < 2) {
+                return 0;
+            }
+            squareRoot: integer = sqrt(n);
+            for (i = 2, i <= squareRoot, i+1) {
+                if (n % i == 0) {
+                    return 0;
+                }
+            }
+            return 1;
+        }
+        simpleFunc: function void () {
+            n: integer;
+            getInput(n);
+            i: integer = 0;
+            print("All fiibinacci numbers < n and are prime number: ");
+            while(fibonacci(i) < n){
+                fi: integer = fibonacci(i);
+                if (isPrimeNumber(fi)){
+                    print(fi + " ");
+                }
+                i = i + 1;
+            }   
+        }

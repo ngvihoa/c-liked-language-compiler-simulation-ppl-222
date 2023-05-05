@@ -1,0 +1,7 @@
+
+        intern: function float(a:integer, b:float) inherit ite{
+            return a*b+5;
+        }
+        simpleFunc: function void () {
+            intern(a, b);
+        }

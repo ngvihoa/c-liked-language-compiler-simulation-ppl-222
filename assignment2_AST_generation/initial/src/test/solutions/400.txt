@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(istuc, BooleanType, [Param(x, IntegerType)], None, BlockStmt([VarDecl(s, IntegerType, IntegerLit(0)), ForStmt(AssignStmt(Id(i), IntegerLit(1)), BinExpr(<, Id(i), Id(x)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(==, BinExpr(%, Id(x), Id(i)), IntegerLit(0)), AssignStmt(Id(s), BinExpr(+, Id(s), Id(i))))])), IfStmt(BinExpr(==, Id(s), Id(x)), ReturnStmt(BooleanLit(True)), ReturnStmt(BooleanLit(False)))]))
+])

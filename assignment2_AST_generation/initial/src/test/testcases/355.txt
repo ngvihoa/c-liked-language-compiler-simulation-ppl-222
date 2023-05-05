@@ -1,0 +1,4 @@
+
+        esc, esc2, esc3__ : string = "\r ayyyo", "come on \f \n", "2/3\\ ";
+        simpleFunc: function void () {
+        }

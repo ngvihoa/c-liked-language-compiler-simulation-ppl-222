@@ -1,0 +1,7 @@
+
+        simpleFunc: function void () {
+            foo(1);
+            fun(2.333);
+            stringg("jbvjabue \b");
+            ttt(!true);
+        }

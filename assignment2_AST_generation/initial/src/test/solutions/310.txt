@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(isEven, BooleanType, [Param(n, IntegerType)], None, BlockStmt([IfStmt(BinExpr(==, BinExpr(%, Id(n), IntegerLit(2)), IntegerLit(0)), BlockStmt([ReturnStmt(BooleanLit(True))])), ReturnStmt(BooleanLit(False))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(n, IntegerType, IntegerLit(7)), CallStmt(printout, FuncCall(isEven, [Id(n)]))]))
+])

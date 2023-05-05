@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([AssignStmt(Id(tmp), BinExpr(::, StringLit(1234), StringLit(I love u))), CallStmt(print, Id(tmp))]))
+])

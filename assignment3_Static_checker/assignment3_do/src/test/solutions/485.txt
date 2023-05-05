@@ -1,0 +1,1 @@
+Type mismatch in Variable Declaration: VarDecl(s, ArrayType([1, 2, 3], BooleanType), ArrayLit([ArrayLit([BooleanLit(True), BooleanLit(False)]), ArrayLit([BooleanLit(False), BooleanLit(False)])]))

@@ -1,0 +1,11 @@
+
+        dl:function auto(a:auto, b:integer){
+            return a + b;
+            if (a == 3){
+                return b;
+            }
+            else{
+                return false;
+            }
+        }
+        main: function void(){}

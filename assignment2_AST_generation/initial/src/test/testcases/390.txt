@@ -1,0 +1,5 @@
+
+        HToS: function void(n: float){
+            m: float = n * 3600;
+            print(n + " hours is equal to " + m + " seconds");
+        }

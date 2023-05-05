@@ -1,0 +1,5 @@
+
+        isLeafYear: function boolean (n: integer) {
+            if ((n%4==0)||(n%400==0)) return true;
+            return false;
+        }

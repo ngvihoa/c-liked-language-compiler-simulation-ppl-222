@@ -1,0 +1,2 @@
+f, h, s: string = "Baby Shark", "LOving you \n", "nonstop \t music"; 
+        

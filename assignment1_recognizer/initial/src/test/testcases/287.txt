@@ -1,0 +1,4 @@
+randomFunction: function void(){
+            tmp: array [10] of integer;
+            tmp[m] = {2,3,4,5};
+        }

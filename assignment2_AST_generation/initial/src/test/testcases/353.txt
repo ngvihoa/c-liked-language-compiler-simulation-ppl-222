@@ -1,0 +1,3 @@
+simpleFunc: function void () {
+            i[2,4+4,"string\t"] = tmp <= tmp2; 
+        }

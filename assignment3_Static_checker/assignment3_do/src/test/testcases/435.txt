@@ -1,0 +1,10 @@
+
+        jj: function string(a: integer, b: float){
+            c: auto = {{1,2},{5,2},{6,6}};
+            c[1] = 12 + 4.56e-3;
+            return "bingo";
+        }
+        main: function void(){
+
+        }
+        

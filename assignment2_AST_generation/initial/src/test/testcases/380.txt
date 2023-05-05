@@ -1,0 +1,30 @@
+
+        Analyse_Integer: function void(n: integer) {
+            i, dem : integer = 2, 0;
+            a: array [100] of integer;
+            while (n > 1) {
+                if (n % i == 0) {
+                    n = n / i;
+                    a[dem] = i;
+                    dem = dem + 1;
+                } else {
+                    i =  i + 1;
+                }
+            }
+
+            if (dem == 0) {
+                a[dem] = n;
+                dem = dem + 1;
+            }
+
+            for (i = 0, i < dem - 1, i+1) {
+                print(a[i] + " x ");
+            }
+            print(a[dem - 1]);
+        }
+
+        simpleFunc: function void () {
+            n: integer;
+            getinput(n);
+            Analyse_Integer(n);
+        }

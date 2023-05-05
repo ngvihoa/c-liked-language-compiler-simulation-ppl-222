@@ -1,0 +1,3 @@
+randomFunction: function integer("__2": string){
+            return 2;
+        }

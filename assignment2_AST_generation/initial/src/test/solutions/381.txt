@@ -1,0 +1,5 @@
+Program([
+	VarDecl(dec, IntegerType, IntegerLit(10))
+	FuncDecl(sum_digit_number, IntegerType, [Param(n, IntegerType)], None, BlockStmt([VarDecl(total, IntegerType, IntegerLit(0)), DoWhileStmt(BinExpr(>, Id(n), IntegerLit(0)), BlockStmt([AssignStmt(Id(total), BinExpr(+, Id(total), BinExpr(%, Id(n), Id(dec)))), AssignStmt(Id(n), BinExpr(/, Id(n), Id(dec)))])), ReturnStmt(Id(total))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(print, BinExpr(+, StringLit(The sum of all digit in a number is: ), FuncCall(sum_digit_number, [IntegerLit(163846)])))]))
+])

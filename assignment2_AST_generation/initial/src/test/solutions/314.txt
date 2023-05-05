@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(sort, ArrayType([10], IntegerType), [OutParam(n, ArrayType([10], IntegerType))], None, BlockStmt([CallStmt(sort, Id(n)), ReturnStmt(Id(n))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(printout, ArrayLit([IntegerLit(1), IntegerLit(5), IntegerLit(2), IntegerLit(8), IntegerLit(5), IntegerLit(0), IntegerLit(6), IntegerLit(3), IntegerLit(9), IntegerLit(7)]))]))
+])

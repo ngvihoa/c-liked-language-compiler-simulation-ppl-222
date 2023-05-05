@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(print, StringLit(=================)), CallStmt(print, StringLit(Cause I dont care!)), CallStmt(print, StringLit(Who you love oh oh ~)), CallStmt(print, StringLit(=================))]))
+])

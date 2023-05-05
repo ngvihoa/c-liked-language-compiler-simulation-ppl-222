@@ -1,0 +1,4 @@
+simpleFunc: function void () {
+            tmp = "1234"::"I love u";
+            print(tmp);
+        }

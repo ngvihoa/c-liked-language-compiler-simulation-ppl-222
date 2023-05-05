@@ -1,0 +1,7 @@
+Program([
+	VarDecl(b, BooleanType, BooleanLit(True))
+	VarDecl(c, BooleanType, BooleanLit(False))
+	VarDecl(d, BooleanType, BooleanLit(False))
+	VarDecl(e, BooleanType, BooleanLit(True))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([]))
+])

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(m, StringType, StringLit(Nguyen viet hoa)), VarDecl(n, StringType, StringLit()), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), FuncCall(len, [Id(m)])), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([AssignStmt(Id(n), BinExpr(::, ArrayCell(m, [Id(i)]), Id(n)))])), CallStmt(print, Id(n))]))
+])

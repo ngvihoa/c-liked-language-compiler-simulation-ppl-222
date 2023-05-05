@@ -1,0 +1,9 @@
+
+        k: function auto(){
+            return "string"
+        }
+        main:function void(){
+            k();
+            return;
+        }
+        

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(i, FloatType), VarDecl(S, FloatType), VarDecl(n, FloatType), CallStmt(print, StringLit(Nhap n: )), CallStmt(getInput, Id(n)), AssignStmt(Id(S), IntegerLit(0)), ForStmt(AssignStmt(Id(i), IntegerLit(1)), BinExpr(<=, Id(i), Id(n)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([AssignStmt(Id(S), BinExpr(+, Id(S), BinExpr(/, IntegerLit(1), BinExpr(*, BinExpr(*, Id(i), Id(i)), Id(i)))))])), CallStmt(print, FuncCall(setprecision, [Id(S), IntegerLit(5)]))]))
+])

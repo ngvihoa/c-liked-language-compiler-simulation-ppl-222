@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(da, ArrayType([3], StringType), ArrayLit([StringLit(I'm happy u never saw me in college), StringLit(Blood on my hands I refuse to ignore it), StringLit(I got my light headed...)])), VarDecl(tmp, StringType, StringLit()), VarDecl(n, IntegerType, IntegerLit(0)), WhileStmt(BinExpr(<, Id(n), IntegerLit(3)), BlockStmt([AssignStmt(Id(tmp), BinExpr(::, Id(tmp), ArrayCell(da, [Id(n)]))), AssignStmt(Id(n), BinExpr(+, Id(n), IntegerLit(1)))])), CallStmt(print, Id(tmp))]))
+])

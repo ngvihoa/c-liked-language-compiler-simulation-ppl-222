@@ -1,0 +1,2 @@
+j: array [4,2] of string = {{"a", "b"}, {"a"}, {"a", "b"}, {"a", "b"}};
+        main: function void(){}

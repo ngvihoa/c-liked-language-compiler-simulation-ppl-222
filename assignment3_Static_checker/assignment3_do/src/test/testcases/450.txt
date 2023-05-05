@@ -1,0 +1,8 @@
+
+        b: function integer(){}
+        main: function void(){
+            a: integer = 10;
+            i: integer;
+            i = b + 10;
+        }
+        

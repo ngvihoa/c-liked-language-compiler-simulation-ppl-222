@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(PerfectNum, BooleanType, [Param(n, IntegerType)], None, BlockStmt([VarDecl(a, ArrayType([20], IntegerType)), VarDecl(dem, IntegerType, IntegerLit(0)), DoWhileStmt(BinExpr(>, Id(n), IntegerLit(0)), BlockStmt([AssignStmt(ArrayCell(a, [Id(dem)]), BinExpr(%, Id(n), IntegerLit(10))), AssignStmt(Id(n), BinExpr(/, Id(n), IntegerLit(10))), AssignStmt(Id(dem), BinExpr(+, Id(dem), IntegerLit(1)))])), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), BinExpr(/, Id(dem), IntegerLit(2))), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(!=, ArrayCell(a, [Id(i)]), ArrayCell(a, [BinExpr(-, BinExpr(-, Id(dem), Id(i)), IntegerLit(1))])), BlockStmt([ReturnStmt(BooleanLit(True))]))])), ReturnStmt(BooleanLit(False))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(n, IntegerType), CallStmt(getInput, Id(n)), CallStmt(print, FuncCall(PerfectNum, [Id(n)]))]))
+])

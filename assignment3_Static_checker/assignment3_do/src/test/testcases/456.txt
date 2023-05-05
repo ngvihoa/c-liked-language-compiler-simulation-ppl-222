@@ -1,0 +1,2 @@
+x: auto = {{1,2},{2,3}};
+        main: function void(){}

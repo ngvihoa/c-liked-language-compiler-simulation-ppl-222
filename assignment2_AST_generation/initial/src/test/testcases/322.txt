@@ -1,0 +1,11 @@
+simpleFunc: function void () {
+            if(1){
+                print(true);
+            }
+            else {
+                if(3){
+                    print(false);
+                }
+                else print("hhhhh");
+            }
+        }

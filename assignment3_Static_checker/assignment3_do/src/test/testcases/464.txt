@@ -1,0 +1,13 @@
+x: float;
+        a: auto = x < 10
+        koo: function boolean(a: boolean){}
+        main:function void(){
+            if(a == koo(a)){
+
+                {
+                    a: integer = 234;
+                    printInteger(a);
+                }
+            }
+
+        }

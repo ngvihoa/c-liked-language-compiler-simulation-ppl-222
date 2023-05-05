@@ -1,0 +1,7 @@
+
+        b: function integer(){}
+        main: function void(){
+            a: integer;
+            readInteger();
+        }
+        

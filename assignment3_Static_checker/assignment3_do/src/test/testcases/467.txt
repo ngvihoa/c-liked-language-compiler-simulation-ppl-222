@@ -1,0 +1,8 @@
+
+        main: function void(){
+            c:boolean;
+            if(c[2,3]){
+                printBoolean(c[1,2]);
+            }
+        }
+        

@@ -1,0 +1,4 @@
+simpleFunc: function void () {
+            arr: array [3] of integer;
+            arr = {2,4,8};
+        }

@@ -1,0 +1,13 @@
+
+        reverseString: function string(m: string){
+            n: string = "";
+            for(i=0,i<len(m),i+1){
+                n = m[i]::n;
+            }
+            return n;
+        }
+        simpleFunc: function void () {
+            m: string = "Nguyen viet hoa";
+            m = reverseString(m);
+            print(m);
+        }

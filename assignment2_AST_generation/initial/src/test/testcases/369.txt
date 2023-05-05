@@ -1,0 +1,3 @@
+simpleFunc: function void () {
+            cap["name"] = e[33] + "aa";
+        }

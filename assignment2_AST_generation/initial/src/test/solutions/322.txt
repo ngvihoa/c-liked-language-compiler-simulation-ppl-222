@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([IfStmt(IntegerLit(1), BlockStmt([CallStmt(print, BooleanLit(True))]), BlockStmt([IfStmt(IntegerLit(3), BlockStmt([CallStmt(print, BooleanLit(False))]), CallStmt(print, StringLit(hhhhh)))]))]))
+])

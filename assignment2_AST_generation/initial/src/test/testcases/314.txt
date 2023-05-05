@@ -1,0 +1,8 @@
+
+        sort: function array [10] of integer(out n: array [10] of integer){
+            sort(n);
+            return n;
+        }
+        simpleFunc: function void () {
+            printout({1,5,2,8,5,0,6,3,9,7});
+        }

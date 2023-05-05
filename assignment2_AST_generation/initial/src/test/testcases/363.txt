@@ -1,0 +1,10 @@
+simpleFunc: function void () {
+            d: integer = 100;
+            n: integer = 0;
+            while(d){
+                r = k % 2;
+                k = k / 2;
+                n = n * 10 + r;
+            }
+            print(reverse(n));
+        }

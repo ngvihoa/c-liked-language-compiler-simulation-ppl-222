@@ -1,0 +1,9 @@
+x: integer;
+        ta: function auto(out a: boolean) inherit foo{
+            super(1);
+            return true;
+        }
+        main: function void(){}
+        
+        foo: function void(inherit k: integer){}
+        foo: function string(b: string, c: string){}

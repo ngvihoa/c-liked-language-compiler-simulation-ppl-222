@@ -1,0 +1,8 @@
+main: function void(){
+            n: integer = 23;
+            sum: integer;
+            for(k = 1, k <= n, k +1 ) {
+                sum = sum + k;
+            }
+            print("The sum from 1 to n: \t", sum);
+        }

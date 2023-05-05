@@ -1,0 +1,16 @@
+simpleFunc: function void () {
+            a, b, c: array [2,3] of integer;
+            getInputArray(a);
+            getInputArray(b);
+            for (i = 0, i < 2, i+1)
+                for (j = 0, j < 3, j+1) {
+                    c[i,j] = a[i,j] + b[i,j];
+                }
+            for (i = 0, i < 2, i+1) {
+                for (j = 0, j < 3, j+1) {
+                    print(c[i,j] + " ");
+                }
+                print("\n");
+            }
+ 
+        }

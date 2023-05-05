@@ -1,0 +1,6 @@
+
+        j:function auto(){return 33;}
+        l:function float(){}
+        x: float = k() + j() + l();
+        main: function void(){}
+        k:function integer(){}

@@ -1,0 +1,4 @@
+Program([
+	VarDecl(a, ArrayType([2, 3], StringType), ArrayLit([ArrayLit([StringLit(a), StringLit(b), StringLit(c)]), ArrayLit([StringLit(d), StringLit(e), StringLit(f)])]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(print, Id(a))]))
+])

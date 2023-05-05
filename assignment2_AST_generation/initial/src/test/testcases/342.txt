@@ -1,0 +1,6 @@
+simpleFunc: function void () {
+            m: array [3] of float = {1.111E-23, .002E24, 2.0e4};
+            n: array [2] of float = {23.5, 77.7};
+            m = m + n;
+            printArray(m);
+        }

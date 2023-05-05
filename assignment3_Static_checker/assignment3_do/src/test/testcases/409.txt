@@ -1,0 +1,5 @@
+
+        a: auto = a + 1;
+        b: string = a::"InnerAnt";
+        main: function void(){}
+        

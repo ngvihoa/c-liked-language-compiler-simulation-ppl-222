@@ -1,0 +1,3 @@
+simpleFunc: function void () inherit main {
+            return;
+        }

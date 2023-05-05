@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(k, IntegerType, IntegerLit(12345)), VarDecl(l, IntegerType, IntegerLit(0)), WhileStmt(Id(k), BlockStmt([AssignStmt(Id(r), BinExpr(%, Id(k), IntegerLit(10))), AssignStmt(Id(k), BinExpr(/, Id(k), IntegerLit(10))), AssignStmt(Id(l), BinExpr(+, BinExpr(*, Id(l), IntegerLit(10)), Id(r)))])), CallStmt(print, Id(l))]))
+])

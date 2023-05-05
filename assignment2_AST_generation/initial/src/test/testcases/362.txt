@@ -1,0 +1,11 @@
+simpleFunc: function void () {
+            k: integer = 12345;
+            l:integer = 0;
+            // reverse the number
+            while(k){
+                r = k % 10;
+                k = k / 10;
+                l = l * 10 + r;
+            }
+            print(l);
+        }

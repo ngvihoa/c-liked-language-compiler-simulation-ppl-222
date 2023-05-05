@@ -1,0 +1,11 @@
+
+        isEven: function boolean(n: integer){
+            if(n%2==0){
+                return true;
+            }
+            return false;
+        }
+        simpleFunc: function void () {
+            n:integer = 7;
+            printout(isEven(n));
+        }

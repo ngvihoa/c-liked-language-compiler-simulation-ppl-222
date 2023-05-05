@@ -1,0 +1,3 @@
+simpleFunc: function void () {
+            do {print(c); }while(c>5);
+        }

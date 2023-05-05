@@ -1,0 +1,5 @@
+Program([
+	VarDecl(a_ejbcau237, BooleanType)
+	VarDecl(____22421ekvoib, IntegerType)
+	VarDecl(Adbo________kvasubeu83649, StringType)
+])

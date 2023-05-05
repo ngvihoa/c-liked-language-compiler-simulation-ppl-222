@@ -1,0 +1,3 @@
+randomFunction: function integer"dd"(out b[3]: boolean){
+            return 2;
+        }

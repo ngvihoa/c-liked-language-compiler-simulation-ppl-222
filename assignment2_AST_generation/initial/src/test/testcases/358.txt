@@ -1,0 +1,6 @@
+simpleFunc: function void () {
+            print("=================");
+            print("Cause I dont care!");
+            print("Who you love oh oh ~");
+            print("=================");
+        }

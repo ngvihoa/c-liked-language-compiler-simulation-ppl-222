@@ -1,0 +1,7 @@
+
+        dl:function auto(a:auto, b:integer){
+            return a + b;
+            return "fkjsnfvkjs";
+        }
+        main:function void(){}
+        

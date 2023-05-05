@@ -1,0 +1,1 @@
+foo: function array [2,3] of integer(out inherit a: boolean){}

@@ -1,0 +1,7 @@
+simpleFunc: function void () {
+            d,r: integer = 5,4;
+            /*print to screen the rectangle*/
+            for(i=1,i<=r,i+1){
+                printLn("*", d);
+            }
+        }

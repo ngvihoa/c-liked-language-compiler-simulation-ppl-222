@@ -1,0 +1,11 @@
+
+        gcd: function integer(a: integer, b: integer) inherit GCD__A {
+            if(a == b) return a;
+            if(a>b){
+                return gcd(b, a-b);
+            }
+            return gcd(a, b-a);
+        }
+        simpleFunc: function void () {
+            print(gcd(5, 10));
+        }

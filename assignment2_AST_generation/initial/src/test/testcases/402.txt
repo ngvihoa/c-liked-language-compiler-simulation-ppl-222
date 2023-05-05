@@ -1,0 +1,11 @@
+simpleFunc: function void () {
+            x,y,sumEven,sumOdd: integer;
+            getInput(x,y);
+            sumEven = 0;
+            sumOdd = 0;
+            for(i = x, i<=y, i+1){
+                if(i%2==0) sumEven=sumEven+i;
+                else sumOdd=sumOdd+i;
+            }
+            print("Sum even num from x to y: " + sumEven + "\n Sum odd num from x to y: " + sumOdd);
+        }

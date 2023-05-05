@@ -1,0 +1,9 @@
+simpleFunc: function void () {
+            a,b:string = "Cindy", "Adam";
+            printout(a, b);
+            c:string;
+            c = a;
+            a = b;
+            b = c;
+            printout(a, b);
+        }

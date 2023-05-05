@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(x, IntegerType), VarDecl(y, IntegerType), VarDecl(sumEven, IntegerType), VarDecl(sumOdd, IntegerType), CallStmt(getInput, Id(x), Id(y)), AssignStmt(Id(sumEven), IntegerLit(0)), AssignStmt(Id(sumOdd), IntegerLit(0)), ForStmt(AssignStmt(Id(i), Id(x)), BinExpr(<=, Id(i), Id(y)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(==, BinExpr(%, Id(i), IntegerLit(2)), IntegerLit(0)), AssignStmt(Id(sumEven), BinExpr(+, Id(sumEven), Id(i))), AssignStmt(Id(sumOdd), BinExpr(+, Id(sumOdd), Id(i))))])), CallStmt(print, BinExpr(+, BinExpr(+, BinExpr(+, StringLit(Sum even num from x to y: ), Id(sumEven)), StringLit(\n Sum odd num from x to y: )), Id(sumOdd)))]))
+])

@@ -1,0 +1,9 @@
+
+        jj: function string(a: integer, b: float){
+            a: auto = {1,2,3};
+            return "bingo";
+        }
+        main: function void(){
+
+        }
+        

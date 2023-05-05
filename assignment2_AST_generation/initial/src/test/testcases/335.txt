@@ -1,0 +1,3 @@
+simpleFunc: function void () {
+            a: boolean = true || a < 3;
+        }

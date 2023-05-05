@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(SToH, VoidType, [Param(n, FloatType)], None, BlockStmt([VarDecl(m, FloatType, BinExpr(/, Id(n), IntegerLit(3600))), CallStmt(print, BinExpr(+, BinExpr(+, BinExpr(+, Id(n), StringLit( seconds is equal to )), Id(m)), StringLit( hours)))]))
+])

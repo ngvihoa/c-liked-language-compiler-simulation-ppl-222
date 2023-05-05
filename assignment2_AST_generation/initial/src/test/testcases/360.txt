@@ -1,0 +1,18 @@
+simpleFunc: function void () {
+            d,r: integer = 5,4;
+            for(i=1,i<=r,i+1){
+                if((i==1) || (i==r)){
+                    for(j=1,j<=r,j+1){
+                        print("*");
+                    }
+                }
+                else{
+                    tmp: string = "*";
+                    for(j=2,j<=r-1,j+1){
+                        tmp = tmp::" ";
+                    }
+                    tmp = tmp::"*";
+                    printLn(tmp);
+                }
+            }
+        }

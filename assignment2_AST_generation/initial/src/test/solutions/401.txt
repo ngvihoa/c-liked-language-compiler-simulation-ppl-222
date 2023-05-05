@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(pow, FloatType, [Param(x, FloatType), Param(y, IntegerType)], None, BlockStmt([VarDecl(res, FloatType, IntegerLit(1)), ForStmt(AssignStmt(Id(i), IntegerLit(1)), BinExpr(<=, Id(i), Id(y)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([AssignStmt(Id(res), BinExpr(*, Id(res), Id(x)))])), ReturnStmt(Id(res))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(print, FuncCall(pow, [FloatLit(2.0036e-07), IntegerLit(2)]))]))
+])

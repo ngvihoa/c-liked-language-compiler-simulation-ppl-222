@@ -1,0 +1,5 @@
+simpleFunc: function void () {
+            {
+                a = "something";
+            }
+        }

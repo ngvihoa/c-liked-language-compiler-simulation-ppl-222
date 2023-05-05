@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(testType, AutoType, [InheritOutParam(m, IntegerType), OutParam(k, BooleanType), Param(null, StringType)], None, BlockStmt([ReturnStmt()]))
+])

@@ -1,0 +1,8 @@
+k: function auto() inherit m{
+            super("kkk", 333);
+        }
+        main:function void(){
+            k();
+            return;
+        }
+        m: function boolean(inherit a: string, inherit b: integer){}

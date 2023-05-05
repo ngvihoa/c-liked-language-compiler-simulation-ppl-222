@@ -1,0 +1,13 @@
+
+        dec: integer = 10;
+        sum_digit_number: function integer(n: integer) {
+            total: integer = 0;
+            do {
+                total = total + n % dec;
+                n = n / dec;
+            } while (n > 0);
+            return total;
+        }
+        simpleFunc: function void () {
+            print("The sum of all digit in a number is: " + sum_digit_number(163846));
+        }

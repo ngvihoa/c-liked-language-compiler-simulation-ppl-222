@@ -1,0 +1,3 @@
+a: string  = "aaaaaaa";
+b: integer = 2834;
+c: auto = 2-3-3;

@@ -1,0 +1,7 @@
+
+        main: function void(){
+            a: integer = 10;
+            i: integer;
+            a();
+        }
+        

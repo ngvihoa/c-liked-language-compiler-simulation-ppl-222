@@ -1,0 +1,7 @@
+simpleFunc: function void () {
+            if ( a+b >= 3 || (tymp == "Superman")) {
+                a =b;
+                c = b;
+            }
+            else print();
+        }

@@ -1,0 +1,5 @@
+Program([
+	VarDecl(string1, StringType, StringLit(random string \f random string))
+	VarDecl(string2, StringType, StringLit(I'm \"Batman\"))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(print, BinExpr(::, Id(string1), Id(string2)))]))
+])

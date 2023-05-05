@@ -1,0 +1,3 @@
+simpleFunc: function void () {
+            a,b,c: float = d,e,(21==2);
+        }

@@ -1,0 +1,8 @@
+
+        comp: function boolean(a: integer, b: integer){
+            return a > b;
+        }
+        main: function void(){
+            a: array [6] of integer = {0, 1, 2, 3, 4, 5};
+            sort(a, a + 6, comp); / we get 5 4 3 2 1 0
+        }

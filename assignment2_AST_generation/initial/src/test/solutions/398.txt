@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(x, IntegerType), VarDecl(y, IntegerType), CallStmt(print, StringLit(Nhap x,y: )), CallStmt(getInput, Id(x), Id(y)), WhileStmt(BinExpr(>, Id(x), Id(y)), BlockStmt([CallStmt(print, StringLit(Nhap lai x,y: )), CallStmt(getInput, Id(x), Id(y))])), VarDecl(i, IntegerType), VarDecl(sum, IntegerType, IntegerLit(0)), ForStmt(AssignStmt(Id(i), Id(x)), BinExpr(<=, Id(i), Id(y)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([AssignStmt(Id(sum), BinExpr(+, Id(sum), BinExpr(*, Id(i), Id(i))))])), CallStmt(print, BinExpr(+, BinExpr(+, BinExpr(+, BinExpr(+, BinExpr(+, StringLit(Tong binh phuong cac so tu ), Id(x)), StringLit( den )), Id(y)), StringLit( la: )), Id(sum)))]))
+])

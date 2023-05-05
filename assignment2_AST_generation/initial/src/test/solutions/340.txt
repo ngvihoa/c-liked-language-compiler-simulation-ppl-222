@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([DoWhileStmt(BinExpr(==, Id(a), Id(b)), BlockStmt([DoWhileStmt(FuncCall(call, []), BlockStmt([DoWhileStmt(BinExpr(==, Id(a), IntegerLit(1)), BlockStmt([AssignStmt(Id(b), Id(c))]))]))]))]))
+])

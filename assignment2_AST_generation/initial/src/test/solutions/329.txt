@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(print, VoidType, [Param(a, StringType)], None, BlockStmt([ReturnStmt(BinExpr(::, Id(a), StringLit(String)))]))
+	FuncDecl(cal, BooleanType, [Param(isT, BooleanType)], None, BlockStmt([ReturnStmt(UnExpr(!, Id(isT)))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(print, StringLit(Automata)), CallStmt(cal, BooleanLit(True))]))
+])

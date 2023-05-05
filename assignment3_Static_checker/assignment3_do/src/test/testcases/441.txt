@@ -1,0 +1,10 @@
+
+        main: function void(){
+            a: integer = 10;
+            i: string;
+            for(i = 0, i < a, i+1){
+                break;
+            }
+            continue;
+        }
+        

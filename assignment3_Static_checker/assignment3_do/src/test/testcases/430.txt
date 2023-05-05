@@ -1,0 +1,9 @@
+k: function auto(c: integer, b: string) inherit m{
+            super(b, c);
+            return b;
+        }
+        main:function void(){
+            a: auto = k(1, "d");
+            return;
+        }
+        m: function boolean(inherit a: string, b: integer){}

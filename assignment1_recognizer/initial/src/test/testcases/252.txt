@@ -1,0 +1,3 @@
+simple: function array [13,2] of float(n: integer) {
+            x::a = inte(x);
+        }

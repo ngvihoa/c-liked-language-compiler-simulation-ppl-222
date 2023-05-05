@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(average, AutoType, [Param(a, AutoType), Param(b, AutoType)], None, BlockStmt([ReturnStmt(BinExpr(/, BinExpr(+, Id(a), Id(b)), IntegerLit(2)))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(average, IntegerLit(3), IntegerLit(4))]))
+])

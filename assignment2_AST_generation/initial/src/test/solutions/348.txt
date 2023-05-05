@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(Double, IntegerType, [OutParam(n, IntegerType)], None, BlockStmt([AssignStmt(Id(n), BinExpr(*, Id(n), IntegerLit(2)))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([CallStmt(print, FuncCall(Double, [IntegerLit(5)]))]))
+])

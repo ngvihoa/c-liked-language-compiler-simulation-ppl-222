@@ -1,0 +1,1 @@
+Type mismatch in statement: AssignStmt(ArrayCell(c, [IntegerLit(1)]), BinExpr(+, IntegerLit(12), FloatLit(0.00456)))

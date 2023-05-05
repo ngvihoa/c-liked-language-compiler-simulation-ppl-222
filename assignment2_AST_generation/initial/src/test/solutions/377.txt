@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(isPrimeNumber, IntegerType, [Param(n, IntegerType)], None, BlockStmt([IfStmt(BinExpr(<, Id(n), IntegerLit(2)), BlockStmt([ReturnStmt(IntegerLit(0))])), VarDecl(squareRoot, IntegerType, FuncCall(sqrt, [Id(n)])), ForStmt(AssignStmt(Id(i), IntegerLit(2)), BinExpr(<=, Id(i), Id(squareRoot)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(==, BinExpr(%, Id(n), Id(i)), IntegerLit(0)), BlockStmt([ReturnStmt(IntegerLit(0))]))])), ReturnStmt(IntegerLit(1))]))
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), IntegerLit(100)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(FuncCall(isPrimeNumber, [Id(i)]), BlockStmt([CallStmt(print, BinExpr(+, Id(i), StringLit( )))]))]))]))
+])

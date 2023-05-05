@@ -1,0 +1,11 @@
+
+        x: integer;
+        main: function void(){
+            while(x < 10){
+                i: boolean;
+                for(i = 0, i < x, i + 1){
+                    break;
+                }
+            }
+        }
+        

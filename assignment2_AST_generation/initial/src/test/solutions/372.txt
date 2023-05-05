@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(simpleFunc, VoidType, [], None, BlockStmt([VarDecl(a, StringType, StringLit(Nguyen van Tu)), VarDecl(b, StringType, StringLit(Nguyen Thi Buoi)), IfStmt(BinExpr(==, Id(a), Id(b)), CallStmt(print, Id(a), Id(b), StringLit( vs )), BreakStmt())]))
+])

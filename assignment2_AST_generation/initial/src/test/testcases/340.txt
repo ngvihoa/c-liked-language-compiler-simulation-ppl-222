@@ -1,0 +1,9 @@
+simpleFunc: function void () {
+            do{
+                do{
+                    do{
+                        b = c
+                    }while(a == 1);
+                }while(call());
+            }while(a==b);
+        }

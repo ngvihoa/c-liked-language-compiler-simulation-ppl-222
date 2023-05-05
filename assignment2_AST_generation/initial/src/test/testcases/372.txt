@@ -1,0 +1,6 @@
+simpleFunc: function void () {
+            a: string = "Nguyen van Tu";
+            b: string = "Nguyen Thi Buoi";
+            if (a == b) print(a, b, " vs ");
+            else break;
+        }

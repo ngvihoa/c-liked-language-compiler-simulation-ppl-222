@@ -1,0 +1,13 @@
+simpleFunc: function void () {
+        n: integer = 6;  
+        for(i = 1, i <= n, i+1) {
+            for(j = 1, j <= n-i, j+1)
+                print(" ");
+        
+            for(j = 1, j <= i, j+1)
+                print("* ");
+        
+            printf("\n");
+        }
+        return 1;
+        }

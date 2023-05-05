@@ -1,0 +1,6 @@
+main: function void(){
+        do{
+        a[for] = a+1;
+        foo(iii, 3.6, 3e-23);
+        } while float(a > 100);
+        }
